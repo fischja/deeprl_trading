@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33ab512e-ac36-4359-b690-c5a3a7d5e905" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SwyI1TIPMd1h3l2BlZieA1nAZV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/source" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Python.tesing_results">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rl-trading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="results" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rl-trading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\fisch\Dropbox\UZH\Semester 2\Deep Reinforcement Learning\Code\training_results.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rl_env" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rl-trading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rl_env.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tesing_results" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rl-trading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tesing_results.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="training_results" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rl-trading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training_results.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tesing_results" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.training_results" />
+        <item itemvalue="Python.results" />
+        <item itemvalue="Python.rl_env" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33ab512e-ac36-4359-b690-c5a3a7d5e905" name="Default Changelist" comment="" />
+      <created>1572488869006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572488869006</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575314437283">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1575314437283" />
+    <state width="932" height="466" key="DebuggerActiveHint" timestamp="1575316127939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="932" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1575316127939" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1575834997692">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575834997692" />
+    <state width="480" height="696" key="GridCell.Tab.0.bottom" timestamp="1575837468445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="480" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575837468445" />
+    <state width="480" height="696" key="GridCell.Tab.0.center" timestamp="1575837468445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="480" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575837468445" />
+    <state width="480" height="696" key="GridCell.Tab.0.left" timestamp="1575837468445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="480" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575837468445" />
+    <state width="480" height="696" key="GridCell.Tab.0.right" timestamp="1575837468445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="480" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575837468445" />
+    <state width="1515" height="227" key="GridCell.Tab.1.bottom" timestamp="1575376130584">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="227" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575376130584" />
+    <state width="1515" height="227" key="GridCell.Tab.1.center" timestamp="1575376130584">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="227" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575376130584" />
+    <state width="1515" height="227" key="GridCell.Tab.1.left" timestamp="1575376130584">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="227" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575376130584" />
+    <state width="1515" height="227" key="GridCell.Tab.1.right" timestamp="1575376130584">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="227" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575376130584" />
+  </component>
+</project>
