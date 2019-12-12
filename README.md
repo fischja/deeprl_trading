@@ -8,7 +8,7 @@ The repo contains the code accompanying a masters level seminar project on deep 
 
 - `features.py`- provides functions for attaching/retrieving features to/from historic data. Based on [bukosabino/ta](https://github.com/bukosabino/ta)
 
-- `main.py`- entry point for training, testing and running buy and hold strategies
+- `main.py`- entry point for training and testing the PPO agents, as well as running testing basedlines (buy and hold strategies)
 
 - `ppo.py`- contains `PPO` class, which wraps the functionality of proximal policy optimization. Based on [seungeunrho/minimalRL](https://github.com/seungeunrho/minimalRL) 
 
