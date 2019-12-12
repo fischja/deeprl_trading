@@ -1,17 +1,21 @@
-`account_management.py` - contains the immutable `AccountState` class. All instance methods of `AccountState` return a new instance.
+## Deep Reinforcement Learning Seminar Project
+The repo contains the code accompanying a masters level seminar project on deep reinforcement learning. The objective of our project was to train a reinforcement learning agent based on a deep neural network policy to profitably trade shares of S&P 500 companies in a simplified trading environment. 
 
-`data_management.py`- provides functions for downloading (`download_dfs`), saving (`save_dfs`), loading (`load_dfs`), splitting (`train_test_split`) and filtering (`filter_dfs`) historic data 
+#### Modules
+- `account_management.py` - contains the immutable `AccountState` class. All instance methods of `AccountState` return a new instance.
 
-`features.py`- provides functions for attaching/retrieving features to/from historic data 
+- `data_management.py`- provides functions for downloading (`download_dfs`), saving (`save_dfs`), loading (`load_dfs`), splitting (`train_test_split`) and filtering (`filter_dfs`) historic data 
 
-`main.py`- entry point for training, testing and running buy and hold strategies
+- `features.py`- provides functions for attaching/retrieving features to/from historic data. Based on [bukosabino/ta](https://github.com/bukosabino/ta)
 
-`ppo.py`- contains `PPO` class, which wraps the functionality of proximal policy optimization
+- `main.py`- entry point for training, testing and running buy and hold strategies
 
-`rl_env.py` - contains the `TradingEnv` class, which wraps a simplified trading environment in the OpenAI Gym environment API
+- `ppo.py`- contains `PPO` class, which wraps the functionality of proximal policy optimization. Based on [seungeunrho/minimalRL](https://github.com/seungeunrho/minimalRL) 
 
-`runs.py`- contains functions for training agents (`train`), testing agents (`test`) and running buy and hold strategies (`test_baseline`)
+- `rl_env.py` - contains the `TradingEnv` class, which wraps a simplified trading environment in the OpenAI Gym environment API
 
-`testing_results.py` - visualizes the results of testing located in the `testing_results` folder
+- `runs.py`- contains functions for training agents (`train`), testing agents (`test`) and running buy and hold strategies (`test_baseline`)
 
-`training_results.py` - visualizes the results of training located in the `training_results` folder
+- `testing_results.py` - visualizes the results of testing located in the `testing_results` folder
+
+- `training_results.py` - visualizes the results of training located in the `training_results` folder
