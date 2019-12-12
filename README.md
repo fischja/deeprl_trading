@@ -1,6 +1,14 @@
 ## Deep Reinforcement Learning Seminar Project
 The repo contains the code accompanying a masters level seminar project on deep reinforcement learning. The objective of our project was to train a reinforcement learning agent based on a deep neural network policy to profitably trade shares of S&P 500 companies in a simplified trading environment. 
 
+#### Running
+Result Calculations
+- Run the `main.py` file. It contains 3 sections identifiable by comments (`TRAINING PPO`, `TESTING PPO`, `TESTING BUY AND HOLD`). Comment out the sections you to do not want to run and adjust the parameters accordingly. 
+
+Result Visualization
+- Run `training_results.py` to visualize the result files in the `training_results` folder 
+- Run `testing_results.py` to visualize the result files in the `testing_results` folder
+
 #### Modules
 - `account_management.py` - contains the immutable `AccountState` class. All instance methods of `AccountState` return a new instance.
 
