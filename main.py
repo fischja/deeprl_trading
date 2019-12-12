@@ -45,6 +45,7 @@ train(allocations=allocations,
       dfs=train_dfs,
       n_start_point_to_ignore=n_start_point_to_ignore_train)
 
+
 # ======== TESTING PPO ===========
 allocations = [-0.6, -0.3, -0.1, 0.0, 0.1, 0.3, 0.6]
 features = ['trix', 'rsi', 'cci', 'aroon', 'perc_bb']
@@ -61,7 +62,7 @@ test(allocations=allocations,
 
 # ======== TESTING BUY AND HOLD ===========
 baseline_allocation = 0.8
-results_path = Path(f'.\\testing_results\\{str(0.8)}.csv')
+results_path = Path(f'.\\testing_results\\{str(baseline_allocation)}.csv')
 n_start_point_to_ignore_test = 100
 test_baseline(allocation=baseline_allocation,
               dfs=test_dfs,
