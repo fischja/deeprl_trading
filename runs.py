@@ -107,7 +107,7 @@ def test_baseline(allocation, dfs, results_path, n_start_point_to_ignore):
     counter = 0
     for k, v in dfs.items():
         counter += 1
-        print(counter)
+        print(f'{counter}/{len(dfs)} dfs completed.')
 
         df = {k: v}
         env = TradingEnv(dfs=df,

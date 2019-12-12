@@ -32,21 +32,26 @@ filtered_dfs = filter_dfs(dfs=loaded_dfs,
 
 train_dfs, test_dfs = train_test_split(dfs=filtered_dfs, split_date=train_test_split_date)
 
+# ======== TRAINING PPO ===========
 n_start_point_to_ignore_train = 2000
-n_start_point_to_ignore_test = 100
-
 allocations = [-0.6, -0.3, -0.1, 0.0, 0.1, 0.3, 0.6]
 features = ['trix', 'rsi', 'cci', 'aroon', 'perc_bb']
-
-model_path = Path('.\\models\\input=[trix, rsi, cci, aroon, perc_bb] output=[-0.6, -0.3, -0.1, 0.0, 0.1, 0.3, 0.6].pt')
-#results_path = Path('.\\testing_results\\results1.csv')
-
+model_name = 'input=[trix, rsi, cci, aroon, perc_bb] output=[-0.6, -0.3, -0.1, 0.0, 0.1, 0.3, 0.6]'
+model_path = Path(f'.\\models\\{model_name}.pt')
+results_path = Path(f'.\\testing_results\\{model_name}.csv')
 train(allocations=allocations,
       features=features,
       model_path=model_path,
       dfs=train_dfs,
       n_start_point_to_ignore=n_start_point_to_ignore_train)
 
+# ======== TESTING PPO ===========
+allocations = [-0.6, -0.3, -0.1, 0.0, 0.1, 0.3, 0.6]
+features = ['trix', 'rsi', 'cci', 'aroon', 'perc_bb']
+model_name = 'input=[trix, rsi, cci, aroon, perc_bb] output=[-0.6, -0.3, -0.1, 0.0, 0.1, 0.3, 0.6]'
+model_path = Path(f'.\\models\\{model_name}.pt')
+results_path = Path(f'.\\testing_results\\{model_name}.csv')
+n_start_point_to_ignore_test = 100
 test(allocations=allocations,
      features=features,
      model_path=model_path,
@@ -54,9 +59,11 @@ test(allocations=allocations,
      results_path=results_path,
      n_start_point_to_ignore=n_start_point_to_ignore_test)
 
-results_path = Path('.\\testing_results\\-0.1.csv')
-test_baseline(allocation=-0.1,
+# ======== TESTING BUY AND HOLD ===========
+baseline_allocation = 0.8
+results_path = Path(f'.\\testing_results\\{str(0.8)}.csv')
+n_start_point_to_ignore_test = 100
+test_baseline(allocation=baseline_allocation,
               dfs=test_dfs,
               results_path=results_path,
               n_start_point_to_ignore=n_start_point_to_ignore_test)
-
